@@ -1,0 +1,4 @@
+gocover1=go test -coverprofile=c.out
+gocover2=go tool cover -html=c.out
+goprof=go tool pprof ./mandel /tmp/
+
